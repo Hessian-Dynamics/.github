@@ -8,10 +8,10 @@ Hessian Dynamics is my effort to clean this up. I am writing the software stack 
 
 ### Repositories
 
-* [**hess**](https://github.com/HessianDynamics/hess)
+* [**hess**](https://github.com/Hessian-Dynamics/hess)
   The core physics driver. It acts as a unified wrapper around semi-empirical engines (like xTB) and machine learning force fields (like MACE). Instead of fighting with different input formats and parsing raw outputs, `hess` standardizes everything into clean trajectories and single-command executions.
 
-* [**jobserver**](https://github.com/HessianDynamics/jobserver)
+* [**jobserver**](https://github.com/Hessian-Dynamics/jobserver)
   A standalone, lightweight job queue. it is built to avoid freezing our terminals or fighting with heavy cluster schedulers just to run a few local parallel jobs. It automatically computes hardware limits, pins physical CPU cores, handles isolated sandboxes, and polls jobs in the background.
 
 * **forge** *(Work in Progress)*
